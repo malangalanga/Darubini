@@ -49,7 +49,7 @@ import base64
 
 
 #--- Reading classified data directly from a csv file
-data_from_mysql = pd.read_csv('https://github.com/malangalanga/Darubini/blob/master/Final_Hate_df')
+data_from_mysql = pd.read_csv('Final_Hate_df')
     
 
 df = data_from_mysql.drop(columns=['Unnamed: 0'])
