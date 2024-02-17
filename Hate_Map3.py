@@ -44,7 +44,7 @@ def display_map():
         
         
         #--- Reading classified data directly from a csv file
-        data_from_mysql = pd.read_csv('https://github.com/malangalanga/Darubini/blob/master/Final_Hate_df')
+        data_from_mysql = pd.read_csv('Final_Hate_df')
     
                 
         #--- Creating a dataframe compatible with the maps app
