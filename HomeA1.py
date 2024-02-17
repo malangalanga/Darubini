@@ -40,7 +40,7 @@ st.set_page_config(page_title="Darubini 1.0", page_icon="🌐")
 col1, col2 = st.columns([1, 3])
 
 # Add a logo with reduced size in the first column
-logo_path = "https://github.com/malangalanga/Darubini/blob/master/logoX.svg"
+logo_path = "logoX.svg"
 #col1.image(logo_path, caption="Your System Logo", width=150)  # Set a fixed width for the logo
 col1.image(logo_path, caption="", width=150)  # Set a fixed width for the logo
 
@@ -109,7 +109,7 @@ elif choice == "Run Hate Speech Detection Model":
     
     # Run the loaded module only when "Run classification model" is selected
     
-    file_path4 = "https://github.com/malangalanga/Darubini/blob/master/modelA_FIN_Progress.py"
+    file_path4 = "modelA_FIN_Progress.py"
     
     new_module4 = load_and_run_module(file_path4)
 
@@ -130,7 +130,7 @@ elif choice == "Hate Speech Distribution Map":
     
     # Run the loaded module only when "Hate Speech Distribution Map" is selected
     
-    file_path2 = "https://github.com/malangalanga/Darubini/blob/master/Hate_Map3.py"
+    file_path2 = "Hate_Map3.py"
     
     new_module2 = load_and_run_module(file_path2)
 
@@ -149,7 +149,7 @@ elif choice == "Display Hate Speech Data":
     #st.subheader("Hate Speech Data")
     st.subheader("")
 
-    file_path3 = "https://github.com/malangalanga/Darubini/blob/master/report_TestingQ2.py"
+    file_path3 = "report_TestingQ2.py"
     
     # Run the loaded module only when "Search the system" is selected
     new_module3 = load_and_run_module(file_path3)
@@ -203,7 +203,7 @@ if choice == "Bar Graphs":
 	#*******************************************************************************************
 
 	# Run the loaded module only when "Run classification model" is selected
-	file_pathA = "/home/malanga/Environments/DarubiniApp/Bar_graphs.py"
+	file_pathA = "Bar_graphs.py"
 	
 	new_moduleA = load_and_run_module(file_pathA)
 	if 'graphs' in dir(new_moduleA) and callable(new_moduleA.graphs):
@@ -221,7 +221,7 @@ elif choice == "Time series":
 	#*******************************************************************************************
 
 	# Run the loaded module only when "Run classification model" is selected
-	file_pathB = "https://github.com/malangalanga/Darubini/blob/master/time_series_plot.py"
+	file_pathB = "time_series_plot.py"
 	
 	new_moduleB = load_and_run_module(file_pathB)
 	if 'time_series' in dir(new_moduleB) and callable(new_moduleB.time_series):
@@ -239,7 +239,7 @@ elif choice == "Word Cloud":
 	#*******************************************************************************************
 
 	# Run the loaded module only when "Run classification model" is selected
-	file_pathC = "https://github.com/malangalanga/Darubini/blob/master/Word_cloud.py"
+	file_pathC = "Word_cloud.py"
 	
 	new_moduleC = load_and_run_module(file_pathC)
 	if 'cloud' in dir(new_moduleC) and callable(new_moduleC.cloud):
