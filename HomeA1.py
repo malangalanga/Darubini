@@ -109,8 +109,8 @@ elif choice == "Run Hate Speech Detection Model":
     
     # Run the loaded module only when "Run classification model" is selected
     
-    file_path4 = "modelA_FIN_Progress.py"
-    
+    #file_path4 = "modelA_FIN_Progress.py"
+    file_path4 = "README"
     new_module4 = load_and_run_module(file_path4)
 
     if 'run_model' in dir(new_module4) and callable(new_module4.run_model):
