@@ -86,7 +86,7 @@ def load_and_run_module(file_path):
 st.sidebar.header("Menu")
 
 # Specify the file path here
-file_path = "https://github.com/malangalanga/Darubini/blob/master/searching4A.py"
+file_path = "searching4A.py"
 
 # Create a menu to access various functions
 menu_options = ["Select Operation", "Run Hate Speech Detection Model", "Display Hate Speech Data", "Hate Speech Distribution Map", "Search the system","Visualizations"]
