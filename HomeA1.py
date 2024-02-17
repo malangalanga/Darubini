@@ -104,7 +104,7 @@ if choice == "Select Operation":
 elif choice == "Run Hate Speech Detection Model":
     st.subheader("Hate speech detection model running")
     st.write("The model is running. It may take a while to complete depending on the size of the data. Please be patient.......")
-    st.write(" ***************** Please read the README file for instructions on running the model ******************")
+    st.write(" Please read the README file (https://github.com/malangalanga/Darubini/blob/master/README) for instructions on running the model ")
     #*******************************************************************************************
     
     # Run the loaded module only when "Run classification model" is selected
