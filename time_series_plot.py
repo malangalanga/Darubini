@@ -40,7 +40,7 @@ def time_series():
 	
 	
 	#--- Reading classified data directly from a csv file
-	data_from_mysql = pd.read_csv('/home/malanga/Environments/DarubiniApp/Final_Hate_df')
+	data_from_mysql = pd.read_csv('https://github.com/malangalanga/Darubini/blob/master/Final_Hate_df')
     
 
 
