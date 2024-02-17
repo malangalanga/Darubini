@@ -1,6 +1,9 @@
-NOTE: 
+NOTE 1: 
 The directory named "SavedModel19" is supposed to have four files i.e.: an assets directory, a variables directory, a fingerprint.pb file and a saved_model.pb file. Due to size of files admissible for uploading to Github, the assets and variables directories were dropped. If you wish to run the model on your local machine, you need to fine-tune a version of the model from Kaggle (https://www.kaggle.com/code/malangalanga/darubini-bert-model). Download the model then replace the SavedModel19 directory with the new weights. Ensure to rename the new directory with the new weights as "SavedModel19".
 
+NOTE 2:
+The other functionalities are working using results that was derived from a fine-tuned model that executed on a local machine.
 
+Contacts:
 This system has been developed by Malanga Kennedy Ndenga -- Kirinyaga University, Kenya.
 For any enquiries you can contact me through: kmalanga@kyu.ac.ke, malangalanga@gmail.com, malangalanga@yahoo.com, Tel: +254791205435.
