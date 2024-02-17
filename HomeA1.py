@@ -111,12 +111,12 @@ elif choice == "Run Hate Speech Detection Model":
     
     #file_path4 = "modelA_FIN_Progress.py"
     file_path4 = "README"
-    new_module4 = load_and_run_module(file_path4)
+    #new_module4 = load_and_run_module(file_path4)
 
-    if 'run_model' in dir(new_module4) and callable(new_module4.run_model):
-        new_module4.run_model()
-    else:
-        st.sidebar.error("Invalid .py file or function. Make sure it contains a callable function named 'run_model'.")
+    #if 'run_model' in dir(new_module4) and callable(new_module4.run_model):
+    #    new_module4.run_model()
+    #else:
+    #    st.sidebar.error("Invalid .py file or function. Make sure it contains a callable function named 'run_model'.")
         
     
     #*******************************************************************************************
