@@ -28,7 +28,7 @@ import time
 #progress_bar = st.progress(0)
 #Raw_df = pd.read_csv('/home/malanga/Environments/FINAL DATASETS/NEW_Politico104.csv')
 
-Raw_df = pd.read_csv('/home/malanga/Environments/DarubiniApp/Anonymized_Kenyan_political_dataset')
+Raw_df = pd.read_csv('https://github.com/malangalanga/Darubini/blob/master/Anonymized_Kenyan_political_dataset')
 
 #Sample 10% of the dataframe
 #Raw_df=Raw_df.sample(frac =.02)
@@ -42,7 +42,7 @@ def run_model():
 	tokenizer = AutoTokenizer.from_pretrained("bert-base-cased")
 
 	#model=tf.saved_model.load("/home/malanga/modeled 1st Dec 2023/13")
-	model=tf.saved_model.load("/home/malanga/Environments/DarubiniApp/SavedModel19")
+	model=tf.saved_model.load("https://github.com/malangalanga/Darubini/blob/master/SavedModel19")
 
 	tmpdir = tempfile.mkdtemp()
 
@@ -262,7 +262,7 @@ def run_model():
 	#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 	
 	#Writing final hate dataframe to a location
-	Final_Hate_df.to_csv("/home/malanga/Environments/DarubiniApp/Final_Hate_df")
+	Final_Hate_df.to_csv("https://github.com/malangalanga/Darubini/blob/master/Final_Hate_df")
 
 
 
