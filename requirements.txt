@@ -20,6 +20,8 @@ transformers==4.32.1
 weasyprint==61.0
 wordcloud==1.9.2
 weasyprint==53.2
+pycairo==1.20.0
+
 
 
 
