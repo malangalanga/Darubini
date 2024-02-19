@@ -19,4 +19,6 @@ tqdm==4.65.0
 transformers==4.32.1
 weasyprint==61.0
 wordcloud==1.9.2
-pycairo==1.20.0
+pycairo>=1.20.0
+weasyprint>=53.2
+pango>=1.48.10
