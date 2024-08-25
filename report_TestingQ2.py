@@ -111,7 +111,7 @@ filter_conditions = (
     (df['Anonymized_author_id'].str.contains(filter_author_id, case=False) if filter_author_id else True) &
     ((df['created_at'] >= filter_created_at_min) if not pd.isna(filter_created_at_min) else True) &
     ((df['created_at'] <= filter_created_at_max) if not pd.isna(filter_created_at_max) else True) &
-    (df['id'].str.contains(filter_tweetID, case=False) if filter_tweetID else True) &
+    (df['Anonymized_tweet_id'].str.contains(filter_tweetID, case=False) if filter_tweetID else True) &
     (df['Hate_Speech_location_Name'].str.contains(filter_Hate_Speech_location_Name , case=False) if filter_Hate_Speech_location_Name  else True)
 )
 
