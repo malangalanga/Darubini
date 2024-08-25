@@ -155,11 +155,11 @@ elif choice == "Display Hate Speech Data":
     # Run the loaded module only when "Search the system" is selected
     new_module3 = load_and_run_module(file_path3)
 
-    if 'full_data' in dir(new_module3) and callable(new_module3.full_data):
-        new_module3.full_data()
-    else:
-        st.sidebar.error("Invalid .py file or function. Make sure it contains a callable function named 'full_data'.")
-        st.sidebar.error("")
+    #if 'full_data' in dir(new_module3) and callable(new_module3.full_data):
+        #new_module3.full_data()
+    #else:
+        #st.sidebar.error("Invalid .py file or function. Make sure it contains a callable function named 'full_data'.")
+        #st.sidebar.error("")
     
     #*******************************************************************************************
 
