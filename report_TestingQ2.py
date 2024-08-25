@@ -164,7 +164,7 @@ def generate_pdf_report(record):
     
     # Add organization logo, motto, and address
     #pdf.drawInlineImage('/home/malanga/Environments/logo.png', 20, 695, width=75, height=75)https://github.com/malangalanga/Darubini/blob/master/logo.png
-    pdf.drawInlineImage('https://github.com/malangalanga/Darubini/blob/master/logo.png', 20, 695, width=75, height=75)
+    pdf.drawInlineImage('logo.png', 20, 695, width=75, height=75)
     pdf.setFont("Times-Bold", 36)
     pdf.drawString(100, 735, "Darubini")
     pdf.setFont("Times-Roman", 10)
