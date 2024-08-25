@@ -19,7 +19,7 @@ tqdm==4.65.0
 transformers==4.32.1
 weasyprint==61.0
 wordcloud==1.9.2
-libpango==1.0-0
+
 
 
 
