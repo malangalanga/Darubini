@@ -254,7 +254,7 @@ elif choice == "Word Cloud":
 # Footer
 footer = """
     <hr style="margin-top: 1em; margin-bottom: 1em;">
-    <p style="text-align: center; font-size: 0.8em; color: #888;">Developed by: Dr. Malanga Kennedy Ndenga & Dr. Victor Mokaya Mageto - Kirinyaga University</p>
+    <p style="text-align: center; font-size: 0.8em; color: #888;">Developed by: Dr. Malanga Kennedy Ndenga (Karatina University) & Dr. Victor Mokaya Mageto (Kirinyaga University)</p>
     """
 st.markdown(footer, unsafe_allow_html=True)        
         
